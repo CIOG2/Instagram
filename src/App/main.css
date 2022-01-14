@@ -1,3 +1,12 @@
+:root{
+    --color-primary: #fafafa;
+    --color-secondary: #ffffff;
+    --color-tertiary: #dbdbdb;
+    --color-quaternary: #efefef;
+    --color-quinary: black;
+}
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,5 +17,14 @@ html{
 }
 
 body{
-    background-color: white;
+    background-color: var(--color-primary);
+}
+
+#root{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
