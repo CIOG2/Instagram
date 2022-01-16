@@ -64,17 +64,16 @@
 
 @media screen and (max-width: 450px){
     .NavBar{
-        padding: 0px;
+        padding: 0px 5px;
     }
     
-    .NavBar__container a{
-        margin-right: 15px;
+    .NavBar__container--Links a{
+        margin-left: 15px;
     }
 }
 
 @media screen and (max-width: 350px){
-
-    .NavBar__container a{
-        margin-right: 7px;
+    .NavBar__container--Links a{
+        margin-left: 7px;
     }
 }
