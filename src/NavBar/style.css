@@ -7,6 +7,7 @@
     height: 60px;
     background-color: var(--color-secondary);
     border-bottom: 1px solid var(--color-tertiary);
+    z-index: 5;
 }
 .NavBar{
     display: flex;
@@ -34,7 +35,6 @@
 .NavBar__container--image img{
     width: 103px;
     height: 29px;
-    margin-left: 10px;
 }
 
 
@@ -48,7 +48,7 @@
     height: 24px;
 }
 .NavBar__container--Links a{
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .NavBar__container--Links{
