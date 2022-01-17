@@ -4,9 +4,9 @@ import "./style.css";
 function Aside() {
     
     return (
-        <div>
+        <aside className="aside">
 
-        </div>
+        </aside>
     );
 }
 

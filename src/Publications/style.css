@@ -1,0 +1,7 @@
+.section__publications{
+    position: relative;
+    width: 100%;
+    height: 2000px;
+    max-width: 615px;
+    background-image: linear-gradient(to bottom, #000000, #3f1f1e, #733d21, #956912, #9ca100, #9cbc00, #93d900, #7ef721, #a6f82c, #c5f93b, #e1fa4c, #f8fb5f);
+}

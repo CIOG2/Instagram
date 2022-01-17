@@ -4,9 +4,9 @@ import "./style.css";
 function Hystories() {
     
     return (
-        <div>
+        <section>
             
-        </div>
+        </section>
     );
 }
 

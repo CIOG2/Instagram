@@ -1,0 +1,15 @@
+.aside{
+    position: fixed;
+    right: 1;
+    margin-left: 640px;
+    width: 100%;
+    height: calc(100vh - 90px);
+    max-width: 295px;
+    background-image: linear-gradient(to right top, #cb3318, #dd3357, #db4d8e, #c86cbb, #aa89d9, #ad8ada, #af8bda, #b28cdb, #d471bd, #e9558d, #ea4654, #d44f0a);
+}
+
+@media screen and (max-width: 1000px){
+    .aside{
+        display: none;
+    }
+}

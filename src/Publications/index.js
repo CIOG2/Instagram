@@ -4,9 +4,9 @@ import "./style.css";
 function Publications() {
     
     return (
-        <div>
+        <section className="section__publications">
             
-        </div>
+        </section>
     );
 }
 

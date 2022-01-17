@@ -3,14 +3,26 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 1000px;
+    min-height: 100vh;
     padding-top: 60px;
 }
 
 .main__section--container{
     position: relative;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    height: 100%;
+    height: auto;
     max-width: 935px;
+    padding-top: 30px;
     background-color: white;
+}
+
+@media screen and (max-width: 1000px){
+    .main__section--container{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
