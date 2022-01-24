@@ -4,7 +4,7 @@ import "./style.css";
 function Hystories() {
     
     return (
-        <section>
+        <section className="section__hystories">
             
         </section>
     );
