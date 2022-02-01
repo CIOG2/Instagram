@@ -4,7 +4,7 @@ import "./style.css";
 function Skeletons() {
     return (
         <div className="Skeletons">
-            
+            <div className="calis"></div>
         </div>
     )
 }

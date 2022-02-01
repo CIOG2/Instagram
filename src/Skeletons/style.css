@@ -1,0 +1,16 @@
+.Skeletons{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    background-color: var(--color-primary);
+}
+
+.calis{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
