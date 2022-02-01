@@ -25,3 +25,9 @@
         align-items: center;
     }
 }
+
+@media screen and (max-width: 640px){
+    .main__section--container{
+       padding-top: 0px;
+    }
+}
