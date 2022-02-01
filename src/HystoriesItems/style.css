@@ -21,6 +21,7 @@
 .history--image{
     width: 60px;
     height: 60px;
+    color: transparent;
     border-radius: 50%;
     border: 2px solid white;
     cursor: pointer;

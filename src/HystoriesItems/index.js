@@ -9,6 +9,7 @@ function HystoriesItem({image, name}) {
                 <img 
                     className="history--image"
                     src={image}
+                    alt={"Foto del perfil de " + name}
                 />
             </div>
             <span className="history__iteam--name">

@@ -10,7 +10,7 @@ function useLocalStorage(itemName, initialValue) {
             } catch (error) {
                 console.error("hubo un error",error);
             }
-        },1600);
+        },1500);
       });
     
     return {loading};
