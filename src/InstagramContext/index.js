@@ -1,23 +1,19 @@
 import React from "react";
+import { useLocalStorage } from "./useLocalStorage";
+
+
 
 const InstagramContext = React.createContext();
 
-
-
 function InstagramProvider(props) {
+    const { loading } = useLocalStorage('TODOS_V1', []);
 
 
-    function loag() {
-        console.log("InstagramProvider");
-    }
     
-
-
-
     return (
-        <InstagramContext.Provider value={
-            loag
-        }>
+        <InstagramContext.Provider value={{
+            loading
+        }}>
             {props.children}
         </InstagramContext.Provider>
     );

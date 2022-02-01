@@ -6,11 +6,14 @@ import { Skeletons } from "../Skeletons";
 
 function AppUI() {
 
-  
+    const { 
+        loading,
+    } = React.useContext(InstagramContext);
+
+
     return (
         <React.Fragment>
-            {/* {loading22 && <Skeletons/>} */}
-        
+            {loading && <Skeletons/>}
             <NavBar />
             <MainContainer />
         </React.Fragment>
