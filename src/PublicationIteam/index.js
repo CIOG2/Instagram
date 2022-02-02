@@ -10,14 +10,15 @@ function PublicationIteam({imageProfile, name, image}) {
         <article className="publication__iteam">
             <div className="publication__iteam--header">
                 <div>
-                    <a>
+                    <a className="container__image">
                         <img
-                            className="profile__image"
                             src={imageProfile}
-                            // alt={"Foto del perfil de " + name}
+                            alt={"Foto del perfil de " + name}
                         />
                     </a>
-                    <a>amabliz</a>
+                    <a className="container__name">
+                        {name}
+                    </a>
                 </div>
                 <div>
                     <svg >
