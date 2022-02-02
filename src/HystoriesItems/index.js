@@ -1,14 +1,14 @@
 import React from "react";
-import "./style.css";
+import "./style.css";     
 
-function HystoriesItem({image, name}) {
-   
+function HystoriesItem({imageProfile, name}) {
+     
     return (
         <div className="history__iteam">
             <div className="container--history-image">
                 <img 
                     className="history--image"
-                    src={image}
+                    src={imageProfile}
                     alt={"Foto del perfil de " + name}
                 />
             </div>
