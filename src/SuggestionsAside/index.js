@@ -1,4 +1,5 @@
 import React from "react";
+import { SuggestionsIteam } from "../SuggestionsIteam";
 import "./style.css";
 
 
@@ -11,7 +12,7 @@ function SuggestionsAside() {
                 <a>Ver todo</a>
             </div>
             <div className="suggestions-iteams">
-
+                <SuggestionsIteam />
             </div>
         </div>    
     )
