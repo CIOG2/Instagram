@@ -47,6 +47,11 @@
     width: 24px;
     height: 24px;
 }
+
+.NavBar__container--Links a:nth-of-type(6) img{
+    border-radius: 50%;
+}
+
 .NavBar__container--Links a{
     margin-left: 20px;
 }

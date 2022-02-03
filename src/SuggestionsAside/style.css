@@ -22,7 +22,8 @@
     cursor: pointer;
 } 
 
-.aside__suggestions--container .suggestions-iteams{
+.aside__suggestions--container .suggestions--container-iteams{
     width: 100%;
     height: 100%;
+    padding-top: 5px;
 }

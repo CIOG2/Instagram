@@ -22,7 +22,7 @@ function NavBar() {
                     <a href="#"> <img src="https://i.ibb.co/7RsT9LZ/Agregar.png" alt="Nueva publicacion"/> </a>
                     <a href="#"> <img src="https://i.ibb.co/Mhc3kX8/Brujula.png" alt="Buscar personas"/> </a>
                     <a href="#"> <img src="https://i.ibb.co/k5wBk5c/Corazon.png" alt="Feed de actividad"/> </a>
-                    <a href="#"> <img src="https://i.ibb.co/k5wBk5c/Corazon.png" alt="Perfil"/> </a>
+                    <a href="#"> <img src="https://i.ibb.co/3THph5M/Me-Profile.jpg" alt="Perfil"/> </a>
                 </div>
             </nav>
         </header>

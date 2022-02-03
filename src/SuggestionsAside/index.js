@@ -11,7 +11,11 @@ function SuggestionsAside() {
                 <h3>Sugerencias para ti</h3>
                 <a>Ver todo</a>
             </div>
-            <div className="suggestions-iteams">
+            <div className="suggestions--container-iteams">
+                <SuggestionsIteam />
+                <SuggestionsIteam />
+                <SuggestionsIteam />
+                <SuggestionsIteam />
                 <SuggestionsIteam />
             </div>
         </div>    
