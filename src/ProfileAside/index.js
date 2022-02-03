@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function Aside() {
+function ProfileAside() {
     
     return (
         <div className="aside__profile--container">

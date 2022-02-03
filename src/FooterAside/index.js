@@ -11,4 +11,4 @@ function FooterAside() {
     )
 }
 
-export {FooterAside};
+export { FooterAside };
