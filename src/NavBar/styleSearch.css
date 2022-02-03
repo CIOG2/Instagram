@@ -12,7 +12,8 @@ img{
     height: 37px;
     padding: 0 10px;
     background-color: var(--color-quaternary);
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-right: -15px;
 }
 
 .Search__Container input{

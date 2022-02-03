@@ -14,7 +14,13 @@
     width: 100%;
     height: 100%;
 }
-.profile--container-content img{
+.profile--container-content a{
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.profile--container-content a img{
     width: 55px;
     height: 55px;
     border-radius: 50%;
@@ -29,26 +35,23 @@
 .profile--container-content .text a{
     font-weight: 600; 
     font-size: 1.3rem;
-    color: #262626;
+    text-decoration: none;
+    color: var(--text-primary, black);
     margin-bottom: 5px;
+    cursor: pointer;
 }
 .profile--container-content .text p{
     font-weight: 200; 
     font-size: 1.4rem;
-    color: #8e8e8e;
+    color: var(--text-secondary, #8e8e8e);
 }
-
-
-
-
-
-
 
 .aside__profile--container > a{
     font-family: 'Blinker', sans-serif;
+    text-decoration: none;
     font: inherit;
     font-size: 1.2rem;
-    color: #0095F6;
+    color: var(--text-tertiary, #0095F6);
     font-weight: 600;
     cursor: pointer;
 }
