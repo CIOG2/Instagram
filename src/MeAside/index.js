@@ -4,10 +4,10 @@ import "./style.css";
 function Aside() {
     
     return (
-        <aside className="aside">
+        <div className="aside__profile--container">
             
-        </aside>
+        </div>
     );
 }
 
-export { Aside };
+export { ProfileAside };
