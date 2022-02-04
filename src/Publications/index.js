@@ -8,13 +8,13 @@ import "./style.css";
 
 function Publications() {
     
-    const { DATA } = React.useContext(InstagramContext);
+    const { DataPublication } = React.useContext(InstagramContext);
 
     return (
         <section className="section__publications">
             <Hystories/>
             
-            {DATA.map((value, index) => {
+            {DataPublication.map((value, index) => {
                 return <PublicationIteam 
                     key={index}
                     imageProfile={value.imageProfile}

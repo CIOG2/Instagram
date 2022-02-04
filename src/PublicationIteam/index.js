@@ -6,6 +6,8 @@ function PublicationIteam({imageProfile, name, image}) {
     
     const { DATA } = React.useContext(InstagramContext);
 
+
+
     return(
         <article className="publication__iteam">
             <div className="publication__iteam--header">
@@ -17,7 +19,7 @@ function PublicationIteam({imageProfile, name, image}) {
                         />
                     </a>
                     <a className="container__name">
-                        {name}
+                        {name.toLowerCase()}
                     </a>
                 </div>
                 <div>

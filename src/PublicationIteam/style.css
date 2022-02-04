@@ -38,11 +38,12 @@
     border-radius: 50%;
 }
 .publication__iteam--header div .container__name{
+    font-family: 'Blinker', sans-serif;
     font-size: 16px;
-    font-weight: 500;
-    font-family: sans-serif;
+    font-weight: 600;
     color: rgb(38, 38, 38);
     margin-left: 10px;
+    letter-spacing: 0.2px;
 }   
 .publication__iteam--header div .container__image img{
     height: 38px;
