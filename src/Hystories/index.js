@@ -5,17 +5,17 @@ import "./style.css";
 
 function Hystories() {
     
-    const { DataPublication } = React.useContext(InstagramContext);
+    const { DataHystories } = React.useContext(InstagramContext);
     
     return (
         <section className="section__hystories">
 
 
-            {DataPublication.map((value, index) => {
+            {DataHystories.map((item, index) => {
                 return <HystoriesItem 
                     key={index}
-                    name={value.name}
-                    imageProfile={value.imageProfile}
+                    name={item.name}
+                    imageProfile={item.imageProfile}
                   />
             })}
 

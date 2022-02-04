@@ -1,9 +1,12 @@
 import React from "react";
 import { SuggestionsIteam } from "../SuggestionsIteam";
+import { InstagramContext } from "../InstagramContext";
 import "./style.css";
 
 
 function SuggestionsAside() {
+    
+    const { DataSuggestions } = React.useContext(InstagramContext);
     
     return (
         <div className="aside__suggestions--container">
@@ -12,11 +15,13 @@ function SuggestionsAside() {
                 <a>Ver todo</a>
             </div>
             <div className="suggestions--container-iteams">
-                <SuggestionsIteam />
-                <SuggestionsIteam />
-                <SuggestionsIteam />
-                <SuggestionsIteam />
-                <SuggestionsIteam />
+                {DataSuggestions.map((item, index) => (
+                    <SuggestionsIteam 
+                        key={index} 
+                        name={item.name}
+                        imageProfile={item.imageProfile}
+                    />
+                ))}
             </div>
         </div>    
     )
