@@ -1,8 +1,9 @@
 import React from "react";
 import "./style.css";     
 
+
 function HystoriesItem({imageProfile, name}) {
-     
+
     return (
         <div className="history__iteam">
             <div className="container--history-image">
@@ -19,4 +20,4 @@ function HystoriesItem({imageProfile, name}) {
     );
 }
 
-export { HystoriesItem };
+export { HystoriesItem};

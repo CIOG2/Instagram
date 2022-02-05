@@ -14,12 +14,13 @@ function Publications() {
         <section className="section__publications">
             <Hystories/>
             
-            {DataPublication.map((value, index) => {
+            {DataPublication.map((item, index) => {
                 return <PublicationIteam 
                     key={index}
-                    imageProfile={value.imageProfile}
-                    image={value.image}
-                    name={value.name}
+                    imageProfile={item.imageProfile}
+                    image={item.image}
+                    name={item.name}
+                    statusHystories={item.statusHystories}
                 />
             })}      
         

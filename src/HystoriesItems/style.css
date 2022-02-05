@@ -6,6 +6,7 @@
     width: 65px;
     height: 100%;
     margin-left: 15px;
+    transition: all .5s linear;
 }
 
 .container--history-image{

@@ -51,15 +51,27 @@ const Hystories = [
     },
     {
         imageProfile: "",
-        name: "",
+        name: "elguatsi",
     },
     {
         imageProfile: "",
-        name: "",
+        name: "soycomparosh",
     },
     {
         imageProfile: "",
-        name: "",
+        name: "_bjean_",
+    },
+    {
+        imageProfile: "",
+        name: "francoescamillaoficial",
+    },
+    {
+        imageProfile: "",
+        name: "yamirootz__",
+    },
+    {
+        imageProfile: "",
+        name: "adele",
     },
 ];
 

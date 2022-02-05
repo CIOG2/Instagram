@@ -34,7 +34,6 @@
     align-items: center;
     height: 42px;
     width: 42px;
-    background-image: linear-gradient(to right top, #df933e, #ed6346, #ea2267, #c80094, #7223c3);
     border-radius: 50%;
 }
 .publication__iteam--header div .container__name{

@@ -6,12 +6,12 @@ import { DataHystories } from "../Data/Hystories";
 
 const InstagramContext = React.createContext();
 
+
 function InstagramProvider(props) {
-
     const { loading } = useLocalStorage('TODOS_V1', []);
-
-
     
+
+
     return (
         <InstagramContext.Provider value={{
             loading,
