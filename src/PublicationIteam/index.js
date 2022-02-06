@@ -17,6 +17,13 @@ function PublicationIteam({imageProfile, name, image, statusHystories}) {
     }
 
     
+    let comentarios = 23;
+    let likes = 12;
+    let time = "hace 1 hora";
+    let description = "No nos cansamos de ver los lanzamientos y aterrizajes del Falcon 9. ¿Apoco no es impresionante? 🚀";
+
+
+
     return(
         <article className="publication__iteam">
             <div className="publication__iteam--header">
@@ -79,10 +86,31 @@ function PublicationIteam({imageProfile, name, image, statusHystories}) {
                     </a>
                 </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
                 <div className="publication__iteam--footer-description">
-                    
+                    <h3 className="likes">{likes} Me gusta</h3>
+                    <p className="description">
+                        <a>{name.toLowerCase()}</a>
+                        {description} 
+                    </p>
+                    <a className="coments">Ver los {comentarios} comentarios</a>
+                    <a className="time">{time.toUpperCase()}</a>
                 </div>
                 
+
+
+
 
 
 
