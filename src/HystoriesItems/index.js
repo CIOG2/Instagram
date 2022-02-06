@@ -4,6 +4,17 @@ import "./style.css";
 
 function HystoriesItem({imageProfile, name}) {
 
+
+    const recortarNombre = (nombre) => {
+        if(nombre.length > 9){
+            return nombre.substring(0,9) + "...".toLowerCase();
+        }else{
+            return nombre.toLowerCase();
+        }
+    }
+
+
+
     return (
         <div className="history__iteam">
             <div className="container--history-image">
@@ -14,7 +25,7 @@ function HystoriesItem({imageProfile, name}) {
                 />
             </div>
             <span className="history__iteam--name">
-                {name.toLowerCase()}
+                {recortarNombre(name)}
             </span>
         </div>
     );

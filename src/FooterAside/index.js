@@ -19,9 +19,9 @@ function FooterAside() {
                 <li><a>Hastags</a></li>
                 <li><a></a></li>
             </ul>
-            {/* <p>
+            <p>
                 © 2022 INSTAGRAM FROM META
-            </p> */}
+            </p>
         </div>    
     )
 }

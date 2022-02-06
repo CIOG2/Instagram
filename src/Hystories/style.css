@@ -11,14 +11,25 @@
 }
 
 .CONTAINER-CALIS{
-    position: relative;
-    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
     height: 100%;
-    background-color: greenyellow;
-    transition: transform 1s linear;
+    transform: translateX(-320px);
+    transition: transform .5s linear;
 }
 
 
+
+.jiji{
+    transform: translateX(-120px);
+}
+
+.jaja{
+    transform: translateX(-220px);
+    background-color: forestgreen;
+}
 
 .Boton-Izquierda{
     position: absolute;

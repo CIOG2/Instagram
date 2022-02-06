@@ -1,0 +1,114 @@
+.publication__iteam-footer{
+    width: 100%;
+    height: auto;
+    background-color: var(--color-primary);
+}
+.publication__iteam-footer--like{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 55px;
+    padding: 4px 16px 8px;
+}
+
+
+.publication__iteam-footer--like .container-svg{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.publication__iteam-footer--like .container-svg svg{
+    width: 24px;
+    height: 24px;
+    fill: #262626;
+    color: #262626;
+    margin-right: 15px;
+}
+.publication__iteam-footer--like .container-svg :is(.COMENT path, .SHARE line, .SHARE polygon),
+.publication__iteam-footer--like > a svg polygon{
+    fill: none; 
+    stroke: currentColor; 
+    stroke-linejoin: round; 
+    stroke-width: 2;
+}
+.publication__iteam-footer--like > a svg{
+    width: 24px;
+    height: 24px;
+    fill: #262626;
+    color: #262626;
+}
+
+
+
+
+
+
+
+
+
+
+.publication__iteam-footer--like .container-more-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.publication__iteam-footer--like > a{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.publication__iteam--footer-description{
+    width: 100%;
+    height: 100px;
+}
+                
+
+
+.publication__iteam--footer-comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height  : 55px;
+    padding: 16px 16px; 
+    border-top: 1px solid var(--color-tertiary);
+}
+                
+.publication__iteam--footer-comment svg{
+    width: 24px;
+    height: 24px;
+    fill: #262626;
+    color: #262626;
+}
+.publication__iteam--footer-comment input{
+    width: 82%;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.publication__iteam--footer-comment input::placeholder{
+    color: #aaaaaa;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.publication__iteam--footer-comment button{
+    color: #0095f6;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px){
+    .publication__iteam--footer-comment{
+        display: none; 
+    }    
+}
