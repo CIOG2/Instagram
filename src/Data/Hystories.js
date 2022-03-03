@@ -6,71 +6,75 @@ const Hystories = [
         name: "amablitz",
     },
     {
-        imageProfile: "",
+        imageProfile: "https://i.ibb.co/9hyVb8R/caeliyt.jpg",
         name: "caeliyt",
     },
     {
-        imageProfile: "",
+        imageProfile: "https://i.ibb.co/pKJzLH1/freddiervega.jpg",
         name: "freddiervega",
     },
     {
-        imageProfile: "",
+        imageProfile: "https://i.ibb.co/mBtfDV8/cryptonary.jpg",
         name: "cryptonary",
     },
     {
-        imageProfile: "",
+        imageProfile: "https://i.ibb.co/N6SDm7D/playgroundmag.jpg",
         name: "playgroundmag",
     },
     {
-        imageProfile: "",
+        imageProfile: "https://i.ibb.co/RzyX8R2/yuyacst.jpg",
         name: "yuyacst",
     },
     {
-        imageProfile: "",
+        imageProfile: "https://i.ibb.co/DC7sGBq/enchufetv.jpg",
         name: "enchufetv",
     },
     {
-        imageProfile: "",
+        imageProfile: "https://i.ibb.co/tz9nbnW/luisitocomunica.jpg",
         name: "luisitocomunica",
     },
     {
-        imageProfile: "",
+        imageProfile: "https://i.ibb.co/xXsCmm1/selenagomez.jpg",
         name: "selenagomez",
     },
     {
-        imageProfile: "",
+        imageProfile: "https://i.ibb.co/sg31D5s/jasantaolalla.jpg",
         name: "jasantaolalla",
     },
     {
-        imageProfile: "",
+        imageProfile: "https://i.ibb.co/4gTX3r7/midu-dev.jpg",
         name: "midu.dev",
     },
     {
-        imageProfile: "",
+        imageProfile: "https://i.ibb.co/4VTzsdY/jimenasanchezmx.jpg",
         name: "jimenasanchezmx",
     },
     {
-        imageProfile: "",
+        imageProfile: "https://i.ibb.co/3YFhRpy/elguatsi.jpg",
         name: "elguatsi",
     },
     {
-        imageProfile: "",
+        imageProfile: "https://i.ibb.co/WG9GGzG/soycomparosh.jpg",
         name: "soycomparosh",
     },
     {
-        imageProfile: "",
+        imageProfile: "https://i.ibb.co/022vHp5/bjean.jpg",
         name: "_bjean_",
     },
     {
-        imageProfile: "",
+        imageProfile: "https://i.ibb.co/WGrLJ7S/francoescamillaoficial.jpg",
         name: "francoescamillaoficial",
     },
     {
-        imageProfile: "",
+        imageProfile: "https://i.ibb.co/ccqVRm8/yamirootz.jpg",
         name: "yamirootz__",
     },
     {
-        imageProfile: "",
+        imageProfile: "https://i.ibb.co/jJQPN6k/arigameplays.jpg",
+        name: "arigameplays",
+    },
+    {
+        imageProfile: "https://i.ibb.co/Jthp8hm/adele.jpg",
         name: "adele",
     },
 ];

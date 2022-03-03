@@ -21,6 +21,10 @@ function Publications() {
                     image={item.image}
                     name={item.name}
                     statusHystories={item.statusHystories}
+                    comentarios={item.comentarios}
+                    likes={item.likes}
+                    time={item.time}
+                    description={item.description}
                 />
             })}      
         
